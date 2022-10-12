@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding-top: 20px;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #FDEC51;
+    position: relative;
+}
+.form-top {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    padding: 60px 55px;
+    /* top: 60px;
+    left: 55px;
+    right: 55px;
+    bottom: 60px; */
+
+}
+.form-title {
+    /* position: absolute; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.close-btn {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.avatar {
+    position: absolute;
+    top: 155px;
+    left: 100px;
+    z-index: 10;
+}
+
+.inputs {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.35);
+    width: 520px;
+    left: 50px;
+    padding: 65px 50px;
+    margin-bottom: 38px;
+}
+.form-label {
+    font-family: 'Inter';
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    opacity: 0.5;
+    margin: 0;
+}
+input {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #767575;
+    border: none;
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 24px;
+    padding: 6px 0px;
+    outline: none;
+}
+#username, #user-email {
+    width: 100%;
+}
+.semi-input {
+    display: flex;
+}
+.email {
+    width: 100%;
+}
+.firstname, .lastname {
+    width: 200px;
+}
+#firstname , #lastname {
+    width: 200px;
+}
+
+.bio {
+    display: block;
+}
+#textarea {
+    resize: none;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 6px 0px;
+}
+textarea::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #767575;
+}
+input:focus {
+    border-bottom: 1px solid #5a5959;
+}
+
+.btn-menu {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 28px;
+    margin: 0px 50px;
+}
+.btn-reset, .btn-send {
+    border: none;
+    background-color: #FDEC51;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6E693F;
+    margin-left: 24px;
+}
+button {
+    cursor: pointer;
+}
